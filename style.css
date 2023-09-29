@@ -1,0 +1,14 @@
+.main{
+    /* background-image: url(bg.jpeg);
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #ff5151;
+    
+}
