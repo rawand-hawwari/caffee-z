@@ -3,7 +3,7 @@ function order(){
     let name = String(prompt("Please entaer your name"));
 
     // section 2
-    let gender = String(prompt("Please entaer your gender"));
+    let gender = String(prompt("Please entaer your gender (Male or Female)"));
     let title;
 
     // section 3
