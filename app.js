@@ -39,7 +39,7 @@ function order(){
     // it take the value for gender and check it, but using a function that is called here
     let gender = String(prompt("Please enter your gender"));
     let title;
-    getGender(gender);
+    gender = getGender(gender);
 
     function getGender(gender){
         while(gender != "male" && gender != "Male" && gender != "female" && gender != "Female"){
@@ -53,7 +53,9 @@ function order(){
             window.alert("welcome to the cafe ms " + name);
             title = "Ms";
         }
+        return gender;
     }
+
 
     // section 4
     let drinkType = String(prompt("Do you prefer a hot or a cold drink?"));
@@ -74,7 +76,7 @@ function order(){
 
     // ex2
     // instead of section 7
-    for(var i = 0;i<order.length;i++){
-        console.log(order[i]);
-    }
+    // for(var i = 0;i<order.length;i++){
+    //     console.log(order[i]);
+    // }
 }
