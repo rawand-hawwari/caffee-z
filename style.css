@@ -19,7 +19,7 @@ h1{
     font-size: xx-large;
     font-weight: bold;
 }
-h2,p{
+h2,p,ul{
     color:#ffffff ;
     /* font-size: larger; */
 }
@@ -30,4 +30,9 @@ button{
     font-size: xx-large;
     color: #444444;
     padding: 20px;
+}
+
+.dom{
+    text-align: center;
+    
 }
