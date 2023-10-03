@@ -76,7 +76,7 @@ function order(){
 
     // ex2
     // instead of section 7
-    // for(var i = 0;i<order.length;i++){
-    //     console.log(order[i]);
-    // }
+    for(var i = 0;i<order.length;i++){
+        console.log(order[i]);
+    }
 }
