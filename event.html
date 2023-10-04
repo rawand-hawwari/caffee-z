@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Caffe Z</title>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Order Details</h1>
+            <form action="#" id="order">
+                <label>Name: </label>
+                <input type="text" id="name" name="fullname"><br><br>
+
+                <label>Age: </label>
+                <input type="number" id="age" name="age"><br><br>
+
+                <label>Drink Type: </label>
+                <input type="checkbox" name="type" id="type" value="hot">Hot
+                <input type="checkbox" name="type" id="type" value="cold">Cold <br><br>
+
+                <label>Drink Name: </label>
+                <input type="text" id="drink" name="drink"><br><br>
+
+                <button id="sub" onclick="myOrder()">Submit</button>
+            </form>
+
+            <br><br>
+            <!-- dom task div -->
+            <div id="dom"></div>
+        </div>
+
+        <script src="event.js"></script>
+    </body>
+</html>
