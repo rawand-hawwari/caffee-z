@@ -17,20 +17,29 @@ function myOrder(){
     }
     let drink = document.getElementById('drink').value;
 
-    let paragraph1 = document.createElement("p");
-    let paragraph2 = document.createElement("p");
-    let paragraph3 = document.createElement("p");
-    let paragraph4 = document.createElement("p");
-    
-    // assign content for each element
-    paragraph1.textContent = `Name: ${name}`;
-    paragraph2.textContent = `Age: ${age}`;
-    paragraph3.textContent = `Drink Temperature: ${drinkTemp}`;
-    paragraph4.textContent = `Drink Name: ${drink}`;
+    console.log(`name: ${name}, age: ${age}, temp: ${drinkTemp}, type: ${drink},`);
 
-    // add items to div to the last child
-    document.getElementById("dom").appendChild (paragraph1);
-    document.getElementById("dom").appendChild (paragraph2);
-    document.getElementById("dom").appendChild (paragraph3);
-    document.getElementById("dom").appendChild (paragraph4);
+    // let paragraph1 = document.createElement("p");
+    // let paragraph2 = document.createElement("p");
+    // let paragraph3 = document.createElement("p");
+    // let paragraph4 = document.createElement("p");
+    
+    // // assign content for each element
+    // paragraph1.textContent = `Name: ${name}`;
+    // paragraph2.textContent = `Age: ${age}`;
+    // paragraph3.textContent = `Drink Temperature: ${drinkTemp}`;
+    // paragraph4.textContent = `Drink Name: ${drink}`;
+
+    // // add items to div to the last child
+    // document.getElementById("dom").appendChild (paragraph1);
+    // document.getElementById("dom").appendChild (paragraph2);
+    // document.getElementById("dom").appendChild (paragraph3);
+    // document.getElementById("dom").appendChild (paragraph4);
+
+    // add order info in the document
+    document.getElementById('dom').innerHTML = 
+        `<p>Name: ${name}</p>
+        <p>Age: ${age}</p>
+        <p>Drink Temperature: ${drinkTemp}</p>
+        <p>Drink Name: ${drink}</p>`;
 }
